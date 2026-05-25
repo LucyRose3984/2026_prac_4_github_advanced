@@ -10,3 +10,7 @@ cp -r data original_data
 Perform a checkin 
 
 Run ./bin/mutate_files.sh data/*
+
+
+git checkout -b stable
+git push --set-upstream origin stable
